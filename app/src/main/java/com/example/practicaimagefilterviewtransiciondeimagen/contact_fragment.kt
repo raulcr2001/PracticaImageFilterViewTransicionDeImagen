@@ -32,12 +32,12 @@ class contact_fragment : Fragment() {
         savedInstanceState: Bundle?): View {
 
         list = mutableListOf<Item>(
-            Item("PPPP", "descripcion descriptiva 1"),
-            Item("Zalt", "descripcion descriptiva 12"),
-            Item("Juan", "descripcion descriptiva 123"),
-            Item("Ramiro", "descripcion descriptiva 1234"),
-            Item("Lola", "descripcion descriptiva 12345"),
-            Item("Chema", "descripcion descriptiva 123456")
+            Item("Óscar", "Descripción 1: No sé"),
+            Item("Pepe", "Descripción 2: Tampoco sé"),
+            Item("Dani", "Descripción 3: De esta sé menos"),
+            Item("Luar", "Descripción 4: No mires más"),
+            Item("Javi Hernández", "Descripción 5: Ni idea"),
+            Item("Úrsula", "Descripción 6: Necesito aprobar esta wea")
         )
 
         var adapter =
